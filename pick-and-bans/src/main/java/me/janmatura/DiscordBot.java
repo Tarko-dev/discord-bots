@@ -22,7 +22,7 @@ public class DiscordBot extends ListenerAdapter {
 
     public static void main(String[] args) {
 
-        JDA bot = JDABuilder.createDefault("MTA1NzMyNTUwOTcyNzUwNjUwMg.GQ4-g6.KDwWxDssXEdcSdAdGio9X9EmDeenzlqV_8-bis")
+        JDA bot = JDABuilder.createDefault("PLACEHOLDER")
                 .setActivity(Activity.playing("Type /picks"))
                 .addEventListeners(new DiscordBot())
                 .build();
